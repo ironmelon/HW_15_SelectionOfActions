@@ -12,10 +12,10 @@
 		E37A0DE3211274F600FB3B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37A0DE2211274F600FB3B74 /* Assets.xcassets */; };
 		E37A0DE6211274F600FB3B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37A0DE4211274F600FB3B74 /* LaunchScreen.storyboard */; };
 		E37A0DEE2112799300FB3B74 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A0DED2112799300FB3B74 /* MenuViewController.swift */; };
-		E37A0DF021127A5F00FB3B74 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A0DEF21127A5F00FB3B74 /* WelcomViewController.swift */; };
 		E37A0DF221127B1700FB3B74 /* ImagesScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A0DF121127B1700FB3B74 /* ImagesScreenViewController.swift */; };
 		E37A0DF421127B3600FB3B74 /* ColorPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A0DF321127B3600FB3B74 /* ColorPaletteViewController.swift */; };
 		E37A0DF621127DC400FB3B74 /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A0DF521127DC400FB3B74 /* EndScreenViewController.swift */; };
+		E37A0DF8211288FB00FB3B74 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A0DF7211288FB00FB3B74 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		E37A0DE5211274F600FB3B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E37A0DE7211274F600FB3B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37A0DED2112799300FB3B74 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		E37A0DEF21127A5F00FB3B74 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		E37A0DF121127B1700FB3B74 /* ImagesScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesScreenViewController.swift; sourceTree = "<group>"; };
 		E37A0DF321127B3600FB3B74 /* ColorPaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteViewController.swift; sourceTree = "<group>"; };
 		E37A0DF521127DC400FB3B74 /* EndScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
+		E37A0DF7211288FB00FB3B74 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				E37A0DE4211274F600FB3B74 /* LaunchScreen.storyboard */,
 				E37A0DE7211274F600FB3B74 /* Info.plist */,
 				E37A0DED2112799300FB3B74 /* MenuViewController.swift */,
-				E37A0DEF21127A5F00FB3B74 /* WelcomViewController.swift */,
+				E37A0DF7211288FB00FB3B74 /* WelcomeViewController.swift */,
 				E37A0DF121127B1700FB3B74 /* ImagesScreenViewController.swift */,
 				E37A0DF321127B3600FB3B74 /* ColorPaletteViewController.swift */,
 				E37A0DF521127DC400FB3B74 /* EndScreenViewController.swift */,
@@ -150,9 +150,9 @@
 				E37A0DF221127B1700FB3B74 /* ImagesScreenViewController.swift in Sources */,
 				E37A0DF421127B3600FB3B74 /* ColorPaletteViewController.swift in Sources */,
 				E37A0DF621127DC400FB3B74 /* EndScreenViewController.swift in Sources */,
+				E37A0DF8211288FB00FB3B74 /* WelcomeViewController.swift in Sources */,
 				E37A0DDC211274DE00FB3B74 /* AppDelegate.swift in Sources */,
 				E37A0DEE2112799300FB3B74 /* MenuViewController.swift in Sources */,
-				E37A0DF021127A5F00FB3B74 /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

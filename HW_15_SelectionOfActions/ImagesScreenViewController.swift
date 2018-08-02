@@ -16,6 +16,7 @@ class ImagesScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Images Screen"
     }
 
     @IBAction func showAllButton(_ sender: Any) {

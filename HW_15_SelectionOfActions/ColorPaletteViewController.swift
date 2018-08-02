@@ -40,6 +40,7 @@ class ColorPaletteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Color Palette"
         initialSetupForSliders()
         updateColorView()
     }
